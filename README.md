@@ -15,7 +15,7 @@ The SETI dataset consists of 2-Dimensional spectrograms of radio signals from sp
 
 The spectrograph images were converted into their raw pixel intensity values and normalized so the values lie between 0 and 1. They are then converted into an array by stretching them. Therefore each row of the CSV file corresponds to a single image.
 
-- [SETI Dataset!!](https://www.dropbox.com/sh/pwbc7gvqqmn9fzk/AAAL2Tpy1Bx151AtjnbCIedma?dl=0)
+- [SETI Dataset](https://www.dropbox.com/sh/pwbc7gvqqmn9fzk/AAAL2Tpy1Bx151AtjnbCIedma?dl=0)
 
 Each Row Corresponds to an image.
 The label were found to be one hot encoded in to a vector of 1,4(no. of classes).
