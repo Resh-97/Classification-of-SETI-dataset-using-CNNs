@@ -1,5 +1,5 @@
 # Classification of SETI dataset using CNNs
-The SETI dataset consists of 2-Dimensional spectrograms of radio signals from space collected at the SETI Institute by the Allen Telescope Array. The  objective  is  to classify the radio signals from outer space into one of four classes.
+The **SETI dataset** consists of 2-Dimensional spectrograms of radio signals from space collected at the **SETI Institute** by the **Allen Telescope Array**. The  objective  is  to classify the radio signals from outer space into one of four classes.
 
 ### Tasks Performed:
 
@@ -24,3 +24,17 @@ The label were found to be one hot encoded in to a vector of 1,4(no. of classes)
     * 0,1,0,0 is Narrow-band signal
     * 0,0,1,0 is Noise
     * 0,0,0,1 is Narrow-band-drd signal
+![Output 1](/images/data.PNG)
+
+### Evaluation:
+- Below plots the model performance in terms of loss and accuracy:
+
+![Output 2](/images/accuracy.PNG)![Output 3](/images/loss.PNG)
+
+- **The classification report generated for the model is as follows:**
+
+![Output 4](/images/evaluation.PNG)
+
+- **The CNN model seems to classify correctly the image**
+
+![Output 5](/images/output.PNG)
